@@ -1,0 +1,24 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template: 1fr 5fr / 1fr 4fr;
+}
+
+header {
+  background-color: white;
+  box-shadow: 10px 10px red;
+}
+
+.sidebar {
+  background-color: aquamarine;
+  grid-row: 2 / 3;
+}
+
+main {
+  background-color: lightgrey;
+  grid-row: 2 / 3;
+}
+
