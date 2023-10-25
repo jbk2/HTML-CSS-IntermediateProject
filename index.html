@@ -5,26 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
     <nav>
-      <h1>header</h1>
+      <div class="top-row">
+        <div class="search">
+          <img src="assets/search.svg" alt="search-icon">
+          <input type="text">
+        </div>
+        
+        <div class="mini-profile">
+          <img src="assets/alert.svg" alt="alert" id="alert">
+          <img src="assets/avatar1.svg" alt="profile-pic" id="profile-pic">
+          <h4 class="username">Morgan Oakley</h4>
+        </div>
+      </div>
+
+      <div class="bottom-row">
+        <h3>Profile</h3>
+      </div>
     </nav>
-  </header>
+
   <div class="sidebar">
-    <h1>sidebar</h1>
+    <div class="header">
+      <div class="logo">
+        <img id="logo" src="assets/dashboard.svg" alt="dashboard-icon">
+      </div>
+      <div id="title">
+        <h1 class="header">Dashboard</h1>
+      </div>
+
+    </div>
+    <div class="top-menu">
+      <ul>
+        <li class="1">
+          <img class="menu-img" src="assets/home.svg" alt="home">
+          <h3>Home</h3>
+        </li>
+        <li class="2">
+          <img class="menu-img" src="assets/profile.svg" alt="profile">
+          <h3 class="profile">Profile</h3>
+        </li>
+        <li class="3">
+          <img class="menu-img" src="assets/messages.svg" alt="messages">
+          <h3 class="messages">Messages</h3>
+        </li>
+        <li class="4">
+          <img class="menu-img" src="assets/history.svg" alt="history">
+          <h3 class="history">History</h3>
+        </li>
+        <li class="5">
+          <img class="menu-img" src="assets/tasks.svg" alt="tasks">
+          <h3 class="tasks">Tasks</h3>
+        </li>
+        <li class="6">
+          <img class="menu-img" src="assets/communities.svg" alt="communities">
+          <h3 class="communities">Communities</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bottom-menu">
+      <ul>
+        <li class="1">
+          <img class="menu-img" src="assets/settings.svg" alt="settings">
+          <h3 class="settings">Settings</h3>
+        </li>
+        <li class="2">
+          <img class="menu-img" src="assets/support.svg" alt="support">
+          <h3 class="support">Support</h3>
+        </li>
+        <li class="3">
+          <img class="menu-img" src="assets/privacy.svg" alt="privacy">
+          <h3 class="privacy">Privacy</h3>
+        </li>
+      </ul>
+
+    </div>
   </div>
+
+
   <main>
     <div class="left-col">
       <div class="projects">
         <h1>projects</h1>
       </div>
+    </div>
+    <div class="right-col">
       <div class="announcements">
         <h1>announcements</h1>
       </div>
-    </div>
-    <div class="right-col">
       <div class="trending">
         <h1>trending</h1>
       </div>
